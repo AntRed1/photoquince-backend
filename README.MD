@@ -46,8 +46,8 @@ backend/
 
 Clonar el repositorio
 
-git clone <https://github.com/tu-usuario/tu-repositorio.git>
-cd backend
+git clone <https://github.com/AntRed1/photoquince-backend.git>
+cd photoquince-backend
 
 **Configurar el archivo**application.properties
 
