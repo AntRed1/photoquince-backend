@@ -1,33 +1,94 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Archivos específicos de sistema operativo
+.DS_Store
+Thumbs.db
 
-### STS ###
+# Archivos de compilación y dependencias
+/target/
+/build/
+
+# Configuración de Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Directorio de logs
+logs/
+*.log
+*.log.*
+
+# Archivos de configuración del entorno (variables sensibles)
+.env
+*.env
+
+# Archivos de configuración específicos del IDE
+
+## STS (Spring Tool Suite) ##
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 
-### IntelliJ IDEA ###
-.idea
+## IntelliJ IDEA ##
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
-### NetBeans ###
+## NetBeans ##
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+## Eclipse ##
+.project
+.classpath
+.c9/
+.tern-project
+.factorypath
+.settings/
+
+# VS Code
 .vscode/
+
+# Archivos específicos de sistema
+*.swp
+*~
+
+# Configuración de archivos de test y cobertura de código
+/target/test-classes/
+/target/surefire-reports/
+/target/failsafe-reports/
+jacoco.exec
+.jacocoverage
+/coverage/
+*.coverdata
+*.ec
+*.em
+*.test-results/
+
+# Archivos de paquetes y binarios
+*.jar
+*.war
+*.ear
+
+# Configuración de SonarQube
+.sonar/
+sonar-report.json
+
+# Configuración de Thumbnails y archivos generados por el sistema
+.thumbnail/
+Thumbs.db
+
+# Archivos de configuración de build específicos de frameworks
+.gradle/
+/build/
+/tmp/
+
+# Configuración de archivos de seguridad
+secrets/

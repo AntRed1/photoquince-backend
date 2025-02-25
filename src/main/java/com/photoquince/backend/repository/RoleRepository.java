@@ -14,6 +14,6 @@ import com.photoquince.backend.entity.Role;
 @Repository
 public interface RoleRepository extends JpaRepository<Role, Long> {
 
-	Optional<Role> findByRole(String role);
+	Optional<Role> findByName(String name);
 
 }
